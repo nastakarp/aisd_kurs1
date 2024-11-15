@@ -53,8 +53,6 @@ def check_mersenne_prime(p):
     is_mersenne_prime = lucas_lehmer_test(p)
     return f"M_{p} = 2^{p} - 1: {'Простое' if is_mersenne_prime else 'Составное'}"
 
-
-
 """
 Основная функция для проверки чисел Мерсенна.
 """
